@@ -1,0 +1,13 @@
+unit Click_Altitude_3_types;
+
+type uint8_t  = byte;
+type int8_t   = short;
+type uint16_t = word;
+type int16_t  = integer;
+type uint32_t = dword;
+type int32_t  = longint;
+
+type T_ALTITUDE3_P = ^const uint8_t;
+type T_ALTITUDE3_RETVAL = uint8_t;
+
+end.
